@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html, body{
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    position: relative;
+    height: 100%;
+}
+
+.headerbg {
+    background-image: url('../images/bg.png');
+    background-size: cover;
+    color: white;
+    padding: 5%;
+    height: 100%;
+}
+
+.logo{
+    margin-top: 15%;
+}
+
+.imgright{
+    width: 50%;
+}
+
+.carousel-inner img{
+    margin: auto;
+}
+
+h3{
+    color: #3B1E61;
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.gallery{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: gainsboro;
+}
+
+.card{
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.59);
+}
+
+.features{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#appleicon{
+    margin-right: 10%;
+}
+
+.footer{
+    background-color: #FF5F6F;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    color: white;
+}
+
+.footer button{
+    background-color: white;
+    color: #FF5F6F;
+    height: 60px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 80px 80px 80px 80px;
+    -moz-border-radius: 80px 80px 80px 80px;
+    -webkit-border-radius: 80px 80px 80px 80px;
+    margin-top: 5%;
+    border: none;
+}
+
+.footer button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    background: black;
+    color: white;
+}
+
+.footerbrand{
+    background: black;
+    padding: 40px;
+}
+
+.logofooter{
+    width: 120%;
+    margin-left: -10%;
+}
