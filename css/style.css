@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 html, body{
+    cursor: default;
     margin: 0;
     font-family: 'Muli', sans-serif;
     position: relative;
@@ -99,4 +100,22 @@ h3{
 .logofooter{
     width: 120%;
     margin-left: -10%;
+}
+
+.buttonHelp {
+    cursor: pointer;
+    width: 100%;
+
+}
+.buttonHelp:active{
+    transform: translateY(5px)
+}
+.buttonHelp > h4{
+    margin: 0;
+}
+
+@media (max-width: 577px) {
+    .headerbg{
+        height: auto;
+    }
 }
